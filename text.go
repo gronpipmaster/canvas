@@ -14,10 +14,7 @@ getters and setters for
 package canvas
 
 /*
-#cgo CFLAGS: -fopenmp -I./_include
-#cgo LDFLAGS: -lMagickWand -lMagickCore
-
-#include <wand/magick_wand.h>
+#include <wand/MagickWand.h>
 */
 import "C"
 
